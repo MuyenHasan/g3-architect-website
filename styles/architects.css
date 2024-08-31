@@ -179,7 +179,20 @@ main>section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
-
+/* footer part */
+footer{
+    max-width:1440px;
+    
+    margin: 0 auto;
+}
+.footer{
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    padding: 40px 410px;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-bottom: 210px;
+}
 /* media query */
 @media screen and (max-width:576px) {
     .navbar, 
@@ -207,6 +220,10 @@ main>section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer{
+       text-align: center;
+        padding: 5px 10px;
+    }
 }
 /* medium size design */
 @media screen and (min-width: 576px) and (max-width:992px) {
@@ -224,5 +241,8 @@ main>section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer{
+        padding: 10px 140px;
     }
 }
